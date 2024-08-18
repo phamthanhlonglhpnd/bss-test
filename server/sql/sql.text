@@ -1,0 +1,8 @@
+CREATE TABLE Orders {
+  id PRIMARY KEY
+  phoneNumber VARCHAR(20) UNIQUE NOT NULL
+}
+
+//SQL query to check exist phoneNumber
+
+SELECT COUNT * FROM Orders WHERE phoneNumber = ''
