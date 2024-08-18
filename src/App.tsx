@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import FlashSale from './components/FlashSale'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <FlashSale />
     </>
   )
 }
